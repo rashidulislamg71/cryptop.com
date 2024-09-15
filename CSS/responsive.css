@@ -1,0 +1,120 @@
+@media (max-width: 1024px) {
+  .header_container {
+    padding: 15px 20px;
+  }
+
+  .menu {
+    padding: 20px;
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    background-color: #00000086;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.8s ease;
+    z-index: 100;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu ul li a {
+    font-size: 20px;
+  }
+
+  .menu ul li:nth-child(5) a {
+    margin-left: 0;
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+/* hero section responsive styles  */
+@media (max-width: 1024px) {
+  .hero_text h1 {
+    font-size: 50px;
+  }
+
+  .hero_text h3 {
+    font-size: 35px;
+  }
+  .hero_img img {
+    width: 400px;
+    height: auto;
+  }
+
+  .sliders .slider {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_img img {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero_text h1 {
+    font-size: 35px;
+  }
+  .sliders .slider {
+    gap: 40px;
+  }
+
+  .hero_text h3 {
+    font-size: 25px;
+  }
+
+  .hero_text button {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .hero_img img {
+    width: 250px;
+  }
+
+  ul.slick-dots li button {
+    margin-top: 40px;
+  }
+}
+
+/* mobile app section responsive styles  */
+
+@media (max-width: 1024px) {
+  #mobile_app_store {
+    padding: 30px 20px;
+  }
+  .app_inner_content {
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .app_stores_img {
+    width: 430px;
+    height: auto;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app_stores_img {
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+  }
+}

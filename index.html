@@ -4,24 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cryptop</title>
-    <link rel="stylesheet" href="styles.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      <!-- Slick Slider CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- linking custom CSS  -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- linkgin resposive CSS  -->
+     <link rel="stylesheet" href="CSS/responsive.css">
   </head>
   <body>
     <!----- Header nav ----->
 
-   <!-- <header class="header_container flex"> 
+    <header class="header_container flex">
       <div class="cryptop_logo">
         <a href="#hero_section">Cryptop</a>
       </div>
-      <nav class="menu">
-        <ul class="flex">
+      <div class="menu-toggle" id="menuToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav class="menu" id="navLinks">
+        <ul class="flex" >
           <li><a href="#hero_section">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#how">How</a></li>
@@ -37,26 +42,59 @@
           </li>
         </ul>
       </nav>
-    </header> -->
+    
+    </header>
 
     <!------- Heor section slider ------->
-    <!-- <section id="hero_section">
+    <section id="hero_section">
       <div class="hero_container">
-        <div class="hero_inner_content flex">
-          <div class="hero_text">
-            <h1>Digital Currency</h1>
-            <h2>The future of Trading.</h2>
-            <button>Get Started</button>
+        <div class="sliders">
+          <div class="slider flex">
+            <div class="hero_text">
+              <h1>Digital Currency</h1>
+              <h3>The future of Trading.</h3>
+              <button>Get Started</button>
+            </div>
+            <div class="hero_img">
+              <img src="./images/slider-img.png" alt="Slider" />
+            </div>
           </div>
-          <div class="hero_img">
-            <img src="./images/slider-img.png" alt="Slider" />
+          <div class="slider flex">
+            <div class="hero_text">
+              <h1>Digital Currency</h1>
+              <h3>The future of Trading.</h3>
+              <button>Get Started</button>
+            </div>
+            <div class="hero_img">
+              <img src="./images/slider-img.png" alt="Slider" />
+            </div>
+          </div>
+          <div class="slider flex">
+            <div class="hero_text">
+              <h1>Digital Currency</h1>
+              <h3>The future of Trading.</h3>
+              <button>Get Started</button>
+            </div>
+            <div class="hero_img">
+              <img src="./images/slider-img.png" alt="Slider" />
+            </div>
+          </div>
+          <div class="slider flex">
+            <div class="hero_text">
+              <h1>Digital Currency</h1>
+              <h3>The future of Trading.</h3>
+              <button>Get Started</button>
+            </div>
+            <div class="hero_img">
+              <img src="./images/slider-img.png" alt="Slider" />
+            </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- How it works section -->
-    <!-- <section id="how_it_works">
+    <section id="how_it_works">
       <div class="how_container">
         <h2>How it works</h2>
         <div class="flex how_inner_content">
@@ -97,10 +135,10 @@
         </div>
         <button class="read_more_btn">Read More</button>
       </div>
-    </section> -->
+    </section>
 
     <!-- about section  -->
-    <!-- <section id="about">
+    <section id="about">
       <div class="about_container">
         <h2>About Cryptop</h2>
         <div class="about_inner_content">
@@ -116,27 +154,33 @@
         </div>
         <button class="read_more_btn">Read More</button>
       </div>
-    </section> -->
+    </section>
 
     <!-- mobile app store section  -->
     <section id="mobile_app_store">
       <div class="app_container">
-        <div class=" flex app_inner_content ">
+        <div class="flex app_inner_content">
           <div class="app_text">
             <h3>Our Powerful appp to connect it all</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
             </p>
-            <div class="app_btns flex">
-              <h3>Download Now</h3>
-             <img src="./images/app-store.png" alt="appstore" />
-              <img src="./images/play-store.png" alt="play store" />
+            <div class="app_btns">
+              <h4>Download Now</h4>
+             <div class="downloadBtn flex">
+              <a href="">
+                <img src="./images/app-store.png" alt="appstore" />
+              </a>
+              <a href="">
+                <img src="./images/play-store.png" alt="play store" />
+              </a>
+             </div>
             </div>
           </div>
 
-          <div class="app_stores_img">
-            <img src="images/slider-img.png" alt="App" />
-          </div>
+          <img class="app_stores_img" src="images/slider-img.png" alt="App" />
         </div>
       </div>
     </section>
@@ -243,5 +287,13 @@
         <p>&copy; 2019 All Rights Reserved By Free HTML Templates</p>
       </div>
     </footer>
+
+      <!-- Slick Slider JS -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    
+     <!-- linking custom script  -->
+      <script src="JavaScript/script.js"></script>
   </body>
 </html>
