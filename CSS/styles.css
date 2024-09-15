@@ -39,7 +39,7 @@ body {
 
 .read_more_btn:hover {
   transform: translateY(-3px);
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.651);
+  /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.651); */
 }
 
 h2 {
