@@ -27,7 +27,7 @@ This project is a responsive website with a mobile-friendly navigation menu and 
 This project is licensed under the MIT License. 
 
 ### Author
-*********-------- Md. Rashidul Isla --------*********
+****-------- Md. Rashidul Islam --------****
 
 Feel free to reach out for any suggestions or questions!
 
