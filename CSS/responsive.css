@@ -92,7 +92,7 @@
   }
 }
 
-/* mobile app section responsive styles  */
+/* mobile app store section responsive styles  */
 
 @media (max-width: 1024px) {
   #mobile_app_store {
@@ -116,5 +116,53 @@
     width: 300px;
     height: auto;
     margin-top: 0px;
+  }
+}
+
+/* start automatic now responsive styles  */
+
+@media (max-width:480px) {
+  .start_automatic_inner_content img {
+    width: 360px;
+  }
+}
+
+/* testimonial responsive styles  */
+@media (max-width:480px) {
+  .single_testimonial .img_div {
+    margin-top: 30px;
+  }
+  .testimonial_comment {
+    text-align: center;
+  }
+  
+}
+
+
+/*footer section Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    padding-left: 100px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-column {
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    
+    padding: 20px;
+    
   }
 }
