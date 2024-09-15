@@ -10,6 +10,7 @@
 body {
   max-width: 1920px;
   width: 100%;
+  margin: 0 auto;
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-color: #ffffffe7;
@@ -127,6 +128,21 @@ h2::before {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  position: relative;
+}
+
+.menu ul li a::before{
+  content: " ";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background: #ffffffda;
+  transition: all .5s ease;
+}
+
+.menu ul li:hover a::before{
+  width: 100%;
 }
 
 .menu ul li:nth-child(5) a,
