@@ -373,7 +373,6 @@ ul.slick-dots li.slick-active button {
 .testimonial_inner_content {
   flex-direction: column;
   gap: 50px;
-  
 }
 
 .single_testimonial .img_div {
@@ -396,19 +395,16 @@ ul.slick-dots li.slick-active button {
   font-weight: 500;
 }
 
-
 .testimonial_comment {
   max-width: 550px;
   text-align: left;
 }
 
-
-
 /* footer section styles  */
 footer {
   background-color: #111;
   color: white;
-  padding: 40px 20px;
+  padding: 70px;
 }
 
 .footer-container {
@@ -417,7 +413,6 @@ footer {
   align-items: start;
   justify-content: space-between;
   padding: 50px;
-  
 }
 
 .footer-column {
@@ -426,31 +421,35 @@ footer {
   text-align: left;
 }
 
-.invest_money{
-  max-width: 280px;
+.social_icons {
+  justify-content: start;
+  margin-top: 10px;
+}
+.social_icons ul li a i {
+  font-size: 20px;
 }
 
 .footer-column h3 {
   font-size: 24px;
-  color: #4caf50; 
+  color: #4caf50;
   margin-bottom: 10px;
 }
-.footer-column li{
+.footer-column li {
   list-style: none;
-  transition: all .3s ease;
+  cursor: pointer;
 }
 
-
 .footer-column p,
-.footer-column li a{
+.footer-column ul li a {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
   color: #bbb;
   text-decoration: none;
 }
 
-.footer-column li aside:hover{
-  color: green;
+.footer-column ul li:hover,
+.footer-column ul li a:hover {
+  color: rgb(0, 128, 96);
 }
 
 .contact-info {
@@ -462,13 +461,12 @@ footer {
   margin-bottom: 10px;
 }
 
-.contact-info li i {
+.contact-info ul li i {
   margin-right: 10px;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
-
 }
 
 form input[type="email"] {
@@ -482,10 +480,10 @@ form input[type="email"] {
 form button {
   padding: 10px 20px;
   border: none;
-  background-color: #4caf50; 
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
-  border-radius: 1px; 
+  border-radius: 1px;
   width: 120px;
   margin-top: 15px;
 }
@@ -501,4 +499,3 @@ form button:hover {
   margin-top: 20px;
   color: #bbb;
 }
-
