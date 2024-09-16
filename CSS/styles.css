@@ -39,7 +39,6 @@ body {
 
 .read_more_btn:hover {
   transform: translateY(-3px);
-  /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.651); */
 }
 
 h2 {
@@ -346,7 +345,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .app_stores_img {
-  width: 500px;
+  width: 480px;
   height: 435px;
   margin-top: -47px;
 }
